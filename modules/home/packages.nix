@@ -16,7 +16,10 @@ in
     bluez
     bluez-tools
 
-    #
+    #discord
+    discord
+
+    
     
     ## CLI utility
     ani-cli
