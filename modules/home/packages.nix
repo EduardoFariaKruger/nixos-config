@@ -8,6 +8,13 @@ in
     #navegador
     firefox
 
+    #IC teste
+    glibc
+    glew
+    mesa
+    freeglut
+    glm
+      
     #administrador de displays
     wdisplays
    
