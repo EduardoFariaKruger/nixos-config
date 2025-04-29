@@ -114,7 +114,7 @@
       DISABLE_AUTO_UPDATE=true
       DISABLE_MAGIC_FUNCTIONS=true
       export "MICRO_TRUECOLOR=1"
-
+      export TERM=xterm-256color
       setopt sharehistory
       setopt hist_ignore_space
       setopt hist_ignore_all_dups
@@ -137,6 +137,8 @@
       _fzf_compgen_dir() {
         fd --type=d --hidden --exclude .git . "$1"
       }
+
+      nitch
 
       # Advanced customization of fzf options via _fzf_comprun function
       # - The first argument to the function is the name of the command.

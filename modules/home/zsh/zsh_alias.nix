@@ -11,7 +11,7 @@
       #Screenfetch
       screenfetch = "nitch";
       fetch = "nitch";
-
+      cpu = " cpufetch --color intel";
     
       # Utils
       c = "clear";

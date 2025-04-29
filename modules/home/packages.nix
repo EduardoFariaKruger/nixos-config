@@ -14,6 +14,17 @@ in
     mesa
     freeglut
     glm
+    jdk
+
+    #conteires
+    kubectl
+    docker
+    docker-compose
+    k9s
+
+
+    helvum
+    btop
       
     #administrador de displays
     wdisplays
@@ -26,7 +37,8 @@ in
     #discord
     discord
 
-    
+    #config dos periféricos logitech
+    solaar
     
     ## CLI utility
     ani-cli
@@ -54,6 +66,7 @@ in
     mpv                               # video player
     ncdu                              # disk space
     nitch                             # systhem fetch util
+    cpufetch                          # cpu fetch util
     nixd                              # nix lsp
     nixfmt-rfc-style                  # nix formatter
     openssl
