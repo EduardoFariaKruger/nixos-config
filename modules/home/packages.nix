@@ -7,7 +7,7 @@ in
 
     #navegador
     firefox
-
+    pkgs.haskell.compiler.ghc96
     #IC teste
     glibc
     glew
@@ -15,6 +15,7 @@ in
     freeglut
     glm
     jdk
+    gnome-screenshot
 
     #conteires
     kubectl
@@ -22,7 +23,11 @@ in
     docker-compose
     k9s
 
-
+    nodejs
+  
+    sshfs
+    linuxHeaders
+    
     helvum
     btop
       
@@ -91,6 +96,11 @@ in
     wget
     woomer
     yt-dlp-light
+    xdg-desktop-portal
+    xdg-desktop-portal-gnome  # se usa GNOME, ou
+    # xdg-desktop-portal-gtk  # para ambientes GTK gerais
+    # xdg-desktop-portal-kde  # para KDE Plasma
+    # xdg-desktop-portal-wlr  # para wlroots/Wayland
     xdg-utils
     xxd
 

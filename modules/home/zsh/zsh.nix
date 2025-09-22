@@ -111,6 +111,13 @@
         source "''${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-''${(%):-%n}.zsh"
       fi
 
+
+      export PATH="/usr/local/bin:$PATH"
+
+      export EDITOR="micro"
+      export VISUAL="micro"
+
+      
       DISABLE_AUTO_UPDATE=true
       DISABLE_MAGIC_FUNCTIONS=true
       export "MICRO_TRUECOLOR=1"
